@@ -1,4 +1,4 @@
-// description: 10時から14時の間に、バックエンドエンジニアまたはSREの候補者が追加された場合、SlackとGmailに通知する
+// 新規候補者が追加されたら Slack と Gmail に通知する
 const main = () => {
   const candidates: Array<any> = getCandidates() as Array<any>;
   if (candidates.length === 0) {
